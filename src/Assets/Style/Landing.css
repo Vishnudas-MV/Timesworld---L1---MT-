@@ -1,0 +1,88 @@
+.Landing-heading {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: 0%;
+
+  color: #3d3d3d;
+}
+.Landing-Nav-Link {
+  font-family: Noto Sans;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 10px;
+}
+.Landing-Nav-Link span {
+  position: relative;
+  right: 15px;
+}
+
+.landing-welcome-title {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 34px;
+  color: #3d3d3d;
+}
+
+/* make carousel dots black */
+.carousel-indicators button {
+  background-color: black; /* default dot color */
+  width: 10px;
+}
+
+.carousel-indicators .active {
+  background-color: black; /* active dot color */
+}
+
+.country-div1 {
+  height: 498px;
+}
+
+.country-div2 {
+  height: 498px;
+}
+.country-box-img {
+  width: 127px;
+  height: 96px;
+}
+.footer-title1 {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 13px;
+  line-height: 19px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #3d3d3d;
+}
+.footer-title2 {
+  font-family: Noto Sans;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 13px;
+
+  line-height: 19px;
+  letter-spacing: 3%;
+  text-align: center;
+  color: #3d3d3d;
+}
+@media (max-width: 767px) {
+  .country-div1 {
+    height: 195.62px;
+  }
+  .country-div2 {
+    height: 147px;
+  }
+  .country-box-img {
+    height: 40px;
+    width: 50px;
+  }
+}
